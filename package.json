@@ -4,7 +4,11 @@
   "description": "linked data fragment server in Eletron wrapper",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "debug": "DEBUG=app:* electron .",
+    "build": "sh build.sh",
+    "debug-build": "DEBUG=app:* open dist/mac/ldfs-electron.app"
   },
   "repository": {
     "type": "git",
@@ -18,6 +22,7 @@
   "homepage": "https://github.com/cnstntn-kndrtv/ldfs-electron#readme",
   "dependencies": {
     "debug": "latest",
+    "electron-is-dev": "^0.1.2",
     "ldf-server": "^2.2.1"
   },
   "devDependencies": {
@@ -30,7 +35,8 @@
   "build": {
     "appId": "myid",
     "mac": {
-      "target": "default"
+      "target": "default",
+      "icon": "public/images/owl.icns"
     }
   }
 }

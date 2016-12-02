@@ -7,11 +7,15 @@ let _ = require('lodash'),
   ViewCollection = ldfs.views.ViewCollection;
 
 let config = JSON.parse(fs.readFileSync(__dirname + '/config.json')),
-  port = config.port || 3000,
   workers = config.workers || 1,
   protocolMatch = (config.baseURL || '').match(/^(\w+):/),
   protocol = config.protocol = protocolMatch ? protocolMatch[1] : 'http',
   constructors = {};
+
+let port;
+if (!config.port) port = 3000;
+else if (config.port == "random") port = '0';
+else port = config.port; 
 
 
 var baseURL = config.baseURL = config.baseURL.replace(/\/?$/, '/'),
@@ -69,7 +73,16 @@ datasources[indexPath] = datasources[indexPath] || {
 };
 
 // Set up assets
+// if (globa.globalVars.IS_DEV) {
+//   config.assetsPath = baseURLPath + 'assets/';
+// }
+// else {
+//   config.assetsPath = baseURLPath + '../../../assets/ldf-server/assets/';
+// } 
+
 config.assetsPath = baseURLPath + 'assets/';
+config.assetsFolder = '/Users/constantin/Desktop/ass/';
+console.log(config.assetsPath);
 
 // Set up routers, views, and controllers
 config.routers = instantiateAll(config.routers, 'node_modules/ldf-server/lib/routers/');
@@ -102,7 +115,9 @@ _.each(datasources, function (settings) {
 
 function startWhenReady() {
   if (!--pending) {
-    server.listen(port);
+    server.listen(port, () => {
+      console.log('--', server.address().port);
+    });
     console.log('Server %d running on %s://localhost:%d/.', process.pid, protocol, port);
   }
 }

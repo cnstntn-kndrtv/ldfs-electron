@@ -2,7 +2,7 @@
   "title": "Linked Data Fragments server",
   "baseURL": "/",
 
-  "port": 3000,
+  "port": "3000",
   "workers": 1,
 
   "datasources": {
@@ -64,14 +64,6 @@
     "TriplePatternFragmentsController": [
       "MementoControllerExtension"
     ]
-  },
-
-  "ssl": {
-    "keys" : {
-      "key":  "config/certs/localhost-server.key",
-      "cert": "config/certs/localhost-server.crt",
-      "ca": [ "config/certs/localhost-ca.crt" ]
-    }
   },
 
   "logging": { "enabled": false, "file": "access.log" }

@@ -1,3 +1,10 @@
+// dev mode
+const isDev = require('electron-is-dev');
+global.globalVars = {
+  IS_DEV: isDev,
+  IS_DEBUG: (process.env.DEBUG) ? true : false,
+}
+
 let server = require('./server');
 const {
   app,
@@ -7,9 +14,11 @@ const {
 const ipc = require('electron').ipcMain;
 const path = require('path');
 const url = require('url');
-const debug = require('debug')('app:server');
 
-const IS_DEBUG = (process.env.DEBUG) ? true : false;
+// DEBUG tools
+const debug = require('debug')('app:server');
+// devtron
+if (global.globalVars.IS_DEV) require('electron-debug')({showDevTools: true});
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
@@ -42,15 +51,21 @@ function createWindow() {
   app.dock.setIcon(__dirname + '/public/images/owl.png');
 
   // Open the DevTools in DEBUG mode
-  if (IS_DEBUG) win.webContents.openDevTools();
+  if (global.globalVars.IS_DEBUG) win.webContents.openDevTools();
 
   // show when ready
-  win.once('ready-to-show', () => { 
+  win.once('ready-to-show', () => {
     win.show();
   });
 
-  // and load the index.html of the app.
+  // load app window.
   win.loadURL('http://localhost:3000/');
+
+  // win.loadURL(url.format({
+  //   pathname: path.join(__dirname, appWindow),
+  //   protocol: 'file:',
+  //   slashes: true
+  // }));
 
   // Emitted when the window is closed.
   win.on('closed', () => {
