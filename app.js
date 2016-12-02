@@ -1,11 +1,3 @@
-// dev mode
-const isDev = require('electron-is-dev');
-global.globalVars = {
-  IS_DEV: isDev,
-  IS_DEBUG: (process.env.DEBUG) ? true : false,
-}
-
-let server = require('./server');
 const {
   app,
   BrowserWindow,
@@ -14,11 +6,24 @@ const {
 const ipc = require('electron').ipcMain;
 const path = require('path');
 const url = require('url');
+const fs = require('fs');
 
-// DEBUG tools
+// dev mode
+const isDev = require('electron-is-dev');
+// debug
 const debug = require('debug')('app:server');
+// global variables
+global.globalVars = {
+  IS_DEV: isDev,
+  IS_DEBUG: (process.env.DEBUG) ? true : false,
+  TEMP_PATH: getTempPath()
+}
 // devtron
-if (global.globalVars.IS_DEV) require('electron-debug')({showDevTools: true});
+if (global.globalVars.IS_DEV) require('electron-debug')({
+  showDevTools: true
+});
+
+require('./server');
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
@@ -97,3 +102,10 @@ app.on('activate', () => {
     createWindow()
   }
 });
+
+function getTempPath() {
+  let tempPath = app.getPath('temp') + '/' + app.getName();
+  debug('temp path', tempPath);
+  fs.mkdir(tempPath, (e) => console.log(e));
+  return tempPath;
+}

@@ -81,8 +81,7 @@ datasources[indexPath] = datasources[indexPath] || {
 // } 
 
 config.assetsPath = baseURLPath + 'assets/';
-config.assetsFolder = '/Users/constantin/Desktop/ass/';
-console.log(config.assetsPath);
+config.assetsFolder = global.globalVars.TEMP_PATH;
 
 // Set up routers, views, and controllers
 config.routers = instantiateAll(config.routers, 'node_modules/ldf-server/lib/routers/');
