@@ -1,0 +1,1095 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix lemon: <http://lemon-model.net/lemon#> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://unl.ru/>
+    dc:date "2015-06-01" ;
+    dc:title "Universal Dictionary of Concepts" ;
+    a lemon:Lexicon, owl:Ontology ;
+    rdfs:label "Universal Dictionary of Concepts" .
+
+<http://unl.ru/#0001a29ce977dac3f3d0d83aa6c081b6>
+    lemon:canonicalForm <http://unl.ru/#0001a29ce977dac3f3d0d83aa6c081b6_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "вольфрам"@ru .
+
+<http://unl.ru/#0001a29ce977dac3f3d0d83aa6c081b6_lemma>
+    lemon:writtenRep "вольфрам"@ru ;
+    a lemon:Form ;
+    rdfs:label "вольфрам"@ru .
+
+<http://unl.ru/#0004151d9374e4cc033a7eaab4a88b31>
+    lemon:canonicalForm <http://unl.ru/#0004151d9374e4cc033a7eaab4a88b31_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:adjective ;
+    a lemon:LexicalEntry ;
+    rdfs:label "однозначный"@ru .
+
+<http://unl.ru/#0004151d9374e4cc033a7eaab4a88b31_lemma>
+    lemon:writtenRep "однозначный"@ru ;
+    a lemon:Form ;
+    rdfs:label "однозначный"@ru .
+
+<http://unl.ru/#0004d284d77c9e3a858efae2bae3de09>
+    lemon:canonicalForm <http://unl.ru/#0004d284d77c9e3a858efae2bae3de09_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "слюна"@ru .
+
+<http://unl.ru/#0004d284d77c9e3a858efae2bae3de09_lemma>
+    lemon:writtenRep "слюна"@ru ;
+    a lemon:Form ;
+    rdfs:label "слюна"@ru .
+
+<http://unl.ru/#000983bcd5a50cad90108d800497677d>
+    lemon:canonicalForm <http://unl.ru/#000983bcd5a50cad90108d800497677d_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:verb ;
+    a lemon:LexicalEntry ;
+    rdfs:label "скандировать"@ru .
+
+<http://unl.ru/#000983bcd5a50cad90108d800497677d_lemma>
+    lemon:writtenRep "скандировать"@ru ;
+    a lemon:Form ;
+    rdfs:label "скандировать"@ru .
+
+<http://unl.ru/#000a9be57642cb4f203852d92cdd8339>
+    lemon:sense <http://unl.ru/#000a9be57642cb4f203852d92cdd8339_sense> .
+
+<http://unl.ru/#000a9be57642cb4f203852d92cdd8339_sense>
+    lemon:definition <http://unl.ru/#concept_429ab95c1068e09fbc5045dfc7736fff_gloss> ;
+    lemon:isSenseOf <http://unl.ru/#000a9be57642cb4f203852d92cdd8339> ;
+    lemon:reference <http://unl.ru/#concept_429ab95c1068e09fbc5045dfc7736fff> ;
+    a lemon:LexicalSense ;
+    rdfs:label "pragmatical(icl>adj,equ>matter-of-fact)" .
+
+<http://unl.ru/#000eaa284d7e155f33e7db0629058b05>
+    lemon:canonicalForm <http://unl.ru/#000eaa284d7e155f33e7db0629058b05_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "подрыв репутации"@ru .
+
+<http://unl.ru/#000eaa284d7e155f33e7db0629058b05_lemma>
+    lemon:writtenRep "подрыв репутации"@ru ;
+    a lemon:Form ;
+    rdfs:label "подрыв репутации"@ru .
+
+<http://unl.ru/#000f34e76f7949a71700f3c8c2fccf29>
+    lemon:canonicalForm <http://unl.ru/#000f34e76f7949a71700f3c8c2fccf29_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:adverb ;
+    a lemon:LexicalEntry ;
+    rdfs:label "также не"@ru .
+
+<http://unl.ru/#000f34e76f7949a71700f3c8c2fccf29_lemma>
+    lemon:writtenRep "также не"@ru ;
+    a lemon:Form ;
+    rdfs:label "также не"@ru .
+
+<http://unl.ru/#000f93300d25f40e2c5efd7899f52de6>
+    lemon:canonicalForm <http://unl.ru/#000f93300d25f40e2c5efd7899f52de6_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "прокладка"@ru .
+
+<http://unl.ru/#000f93300d25f40e2c5efd7899f52de6_lemma>
+    lemon:writtenRep "прокладка"@ru ;
+    a lemon:Form ;
+    rdfs:label "прокладка"@ru .
+
+<http://unl.ru/#000fbe3f04e49dfb11e8f1413fd24c4a>
+    lemon:canonicalForm <http://unl.ru/#000fbe3f04e49dfb11e8f1413fd24c4a_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:adverb ;
+    a lemon:LexicalEntry ;
+    rdfs:label "лихорадочно"@ru .
+
+<http://unl.ru/#000fbe3f04e49dfb11e8f1413fd24c4a_lemma>
+    lemon:writtenRep "лихорадочно"@ru ;
+    a lemon:Form ;
+    rdfs:label "лихорадочно"@ru .
+
+<http://unl.ru/#0010b30bf56422c17a100ef2e00a0316>
+    lemon:canonicalForm <http://unl.ru/#0010b30bf56422c17a100ef2e00a0316_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lemon:sense <http://unl.ru/#0010b30bf56422c17a100ef2e00a0316_sense> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "пессарий"@ru .
+
+<http://unl.ru/#0010b30bf56422c17a100ef2e00a0316_lemma>
+    lemon:writtenRep "пессарий"@ru ;
+    a lemon:Form ;
+    rdfs:label "пессарий"@ru .
+
+<http://unl.ru/#0010b30bf56422c17a100ef2e00a0316_sense>
+    lemon:definition <http://unl.ru/#concept_8dea5b8ae63482f99c0e02563e30dad6_gloss> ;
+    lemon:isSenseOf <http://unl.ru/#0010b30bf56422c17a100ef2e00a0316> ;
+    lemon:reference <http://unl.ru/#concept_8dea5b8ae63482f99c0e02563e30dad6> ;
+    a lemon:LexicalSense ;
+    rdfs:label "pessary(icl>contraceptive>thing,equ>diaphragm)" .
+
+<http://unl.ru/#00137109bc47c75b7eb748b25dd84c88>
+    lemon:canonicalForm <http://unl.ru/#00137109bc47c75b7eb748b25dd84c88_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:adverb ;
+    a lemon:LexicalEntry ;
+    rdfs:label "поблизости"@ru .
+
+<http://unl.ru/#00137109bc47c75b7eb748b25dd84c88_lemma>
+    lemon:writtenRep "поблизости"@ru ;
+    a lemon:Form ;
+    rdfs:label "поблизости"@ru .
+
+<http://unl.ru/#0014ad7e98f024a9dfbebf6504876cff>
+    lemon:canonicalForm <http://unl.ru/#0014ad7e98f024a9dfbebf6504876cff_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lemon:sense <http://unl.ru/#0014ad7e98f024a9dfbebf6504876cff_sense> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "передача"@ru .
+
+<http://unl.ru/#0014ad7e98f024a9dfbebf6504876cff_lemma>
+    lemon:writtenRep "передача"@ru ;
+    a lemon:Form ;
+    rdfs:label "передача"@ru .
+
+<http://unl.ru/#0014ad7e98f024a9dfbebf6504876cff_sense>
+    lemon:definition <http://unl.ru/#concept_9addf96fea7c0d1c58572ca1668c2ce6_gloss> ;
+    lemon:isSenseOf <http://unl.ru/#0014ad7e98f024a9dfbebf6504876cff> ;
+    lemon:reference <http://unl.ru/#concept_9addf96fea7c0d1c58572ca1668c2ce6> ;
+    a lemon:LexicalSense ;
+    rdfs:label "toss(icl>throw>thing,equ>pass)" .
+
+<http://unl.ru/#0016c98209678efccf83432abd3f2945>
+    lemon:canonicalForm <http://unl.ru/#0016c98209678efccf83432abd3f2945_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lemon:sense <http://unl.ru/#0016c98209678efccf83432abd3f2945_sense> ;
+    lexinfo:partOfSpeech lexinfo:adjective ;
+    a lemon:LexicalEntry ;
+    rdfs:label "фосфористый"@ru .
+
+<http://unl.ru/#0016c98209678efccf83432abd3f2945_lemma>
+    lemon:writtenRep "фосфористый"@ru ;
+    a lemon:Form ;
+    rdfs:label "фосфористый"@ru .
+
+<http://unl.ru/#0016c98209678efccf83432abd3f2945_sense>
+    lemon:definition <http://unl.ru/#concept_0f42016575191abc8f021de08c83cbcd_gloss> ;
+    lemon:isSenseOf <http://unl.ru/#0016c98209678efccf83432abd3f2945> ;
+    lemon:reference <http://unl.ru/#concept_0f42016575191abc8f021de08c83cbcd> ;
+    a lemon:LexicalSense ;
+    rdfs:label "phosphorous(icl>adj,com>phosphorus)" .
+
+<http://unl.ru/#001714a935caa5e9e8013b8fdcacffe1>
+    lemon:canonicalForm <http://unl.ru/#001714a935caa5e9e8013b8fdcacffe1_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "паломничество"@ru .
+
+<http://unl.ru/#001714a935caa5e9e8013b8fdcacffe1_lemma>
+    lemon:writtenRep "паломничество"@ru ;
+    a lemon:Form ;
+    rdfs:label "паломничество"@ru .
+
+<http://unl.ru/#001792cea9ad6d0fb0e92583f9701ada>
+    lemon:canonicalForm <http://unl.ru/#001792cea9ad6d0fb0e92583f9701ada_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "посредник"@ru .
+
+<http://unl.ru/#001792cea9ad6d0fb0e92583f9701ada_lemma>
+    lemon:writtenRep "посредник"@ru ;
+    a lemon:Form ;
+    rdfs:label "посредник"@ru .
+
+<http://unl.ru/#0019101f4cf4c1baa3fccf5ff9278e8e>
+    lemon:canonicalForm <http://unl.ru/#0019101f4cf4c1baa3fccf5ff9278e8e_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "лоялист"@ru .
+
+<http://unl.ru/#0019101f4cf4c1baa3fccf5ff9278e8e_lemma>
+    lemon:writtenRep "лоялист"@ru ;
+    a lemon:Form ;
+    rdfs:label "лоялист"@ru .
+
+<http://unl.ru/#0019d50c856dcf7ca3a67e49bae80116>
+    lemon:canonicalForm <http://unl.ru/#0019d50c856dcf7ca3a67e49bae80116_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "кровельщица"@ru .
+
+<http://unl.ru/#0019d50c856dcf7ca3a67e49bae80116_lemma>
+    lemon:writtenRep "кровельщица"@ru ;
+    a lemon:Form ;
+    rdfs:label "кровельщица"@ru .
+
+<http://unl.ru/#001ae07d72045fdcae31b0e79f29f476>
+    lemon:canonicalForm <http://unl.ru/#001ae07d72045fdcae31b0e79f29f476_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:adjective ;
+    a lemon:LexicalEntry ;
+    rdfs:label "горький"@ru .
+
+<http://unl.ru/#001ae07d72045fdcae31b0e79f29f476_lemma>
+    lemon:writtenRep "горький"@ru ;
+    a lemon:Form ;
+    rdfs:label "горький"@ru .
+
+<http://unl.ru/#001b414ddbe3603b1919103fb27d3756>
+    lemon:canonicalForm <http://unl.ru/#001b414ddbe3603b1919103fb27d3756_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "Кама"@ru .
+
+<http://unl.ru/#001b414ddbe3603b1919103fb27d3756_lemma>
+    lemon:writtenRep "Кама"@ru ;
+    a lemon:Form ;
+    rdfs:label "Кама"@ru .
+
+<http://unl.ru/#001cf0ed8b8018aa4ac9b864f7b90095>
+    lemon:canonicalForm <http://unl.ru/#001cf0ed8b8018aa4ac9b864f7b90095_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "слипание"@ru .
+
+<http://unl.ru/#001cf0ed8b8018aa4ac9b864f7b90095_lemma>
+    lemon:writtenRep "слипание"@ru ;
+    a lemon:Form ;
+    rdfs:label "слипание"@ru .
+
+<http://unl.ru/#001dd28bf8abc46916d6004bbf040116>
+    lemon:canonicalForm <http://unl.ru/#001dd28bf8abc46916d6004bbf040116_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "жестянка"@ru .
+
+<http://unl.ru/#001dd28bf8abc46916d6004bbf040116_lemma>
+    lemon:writtenRep "жестянка"@ru ;
+    a lemon:Form ;
+    rdfs:label "жестянка"@ru .
+
+<http://unl.ru/#001e398c51c97f9178090a112a08b796>
+    lemon:canonicalForm <http://unl.ru/#001e398c51c97f9178090a112a08b796_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:adjective ;
+    a lemon:LexicalEntry ;
+    rdfs:label "кремнистый"@ru .
+
+<http://unl.ru/#001e398c51c97f9178090a112a08b796_lemma>
+    lemon:writtenRep "кремнистый"@ru ;
+    a lemon:Form ;
+    rdfs:label "кремнистый"@ru .
+
+<http://unl.ru/#00253a805e3fe594ce42102799a4d9cb>
+    lemon:canonicalForm <http://unl.ru/#00253a805e3fe594ce42102799a4d9cb_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "привлекательность"@ru .
+
+<http://unl.ru/#00253a805e3fe594ce42102799a4d9cb_lemma>
+    lemon:writtenRep "привлекательность"@ru ;
+    a lemon:Form ;
+    rdfs:label "привлекательность"@ru .
+
+<http://unl.ru/#002562467ec669f964b348fdce79ba16>
+    lemon:canonicalForm <http://unl.ru/#002562467ec669f964b348fdce79ba16_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "цепная линия"@ru .
+
+<http://unl.ru/#002562467ec669f964b348fdce79ba16_lemma>
+    lemon:writtenRep "цепная линия"@ru ;
+    a lemon:Form ;
+    rdfs:label "цепная линия"@ru .
+
+<http://unl.ru/#002632057765b303adc3e15baffc3748>
+    lemon:canonicalForm <http://unl.ru/#002632057765b303adc3e15baffc3748_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "ученичество"@ru .
+
+<http://unl.ru/#002632057765b303adc3e15baffc3748_lemma>
+    lemon:writtenRep "ученичество"@ru ;
+    a lemon:Form ;
+    rdfs:label "ученичество"@ru .
+
+<http://unl.ru/#00288a254a19239d17343f5b000ab57a>
+    lemon:canonicalForm <http://unl.ru/#00288a254a19239d17343f5b000ab57a_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "козырь"@ru .
+
+<http://unl.ru/#00288a254a19239d17343f5b000ab57a_lemma>
+    lemon:writtenRep "козырь"@ru ;
+    a lemon:Form ;
+    rdfs:label "козырь"@ru .
+
+<http://unl.ru/#0029a709c818f792ba99dfc4b59a9db5>
+    lemon:canonicalForm <http://unl.ru/#0029a709c818f792ba99dfc4b59a9db5_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lemon:sense <http://unl.ru/#0029a709c818f792ba99dfc4b59a9db5_sense> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "нога"@ru, "ножка"@ru .
+
+<http://unl.ru/#0029a709c818f792ba99dfc4b59a9db5_lemma>
+    lemon:writtenRep "нога"@ru, "ножка"@ru ;
+    a lemon:Form ;
+    rdfs:label "нога"@ru, "ножка"@ru .
+
+<http://unl.ru/#0029a709c818f792ba99dfc4b59a9db5_sense>
+    lemon:definition <http://unl.ru/#concept_0029a709c818f792ba99dfc4b59a9db5_gloss> ;
+    lemon:isSenseOf <http://unl.ru/#0029a709c818f792ba99dfc4b59a9db5> ;
+    lemon:reference <http://unl.ru/#concept_0029a709c818f792ba99dfc4b59a9db5> ;
+    a lemon:LexicalSense ;
+    rdfs:label "leg(icl>cut>thing)" .
+
+<http://unl.ru/#002a0219dde5e4d2987ec29213812827>
+    lemon:canonicalForm <http://unl.ru/#002a0219dde5e4d2987ec29213812827_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lemon:sense <http://unl.ru/#002a0219dde5e4d2987ec29213812827_sense> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "похититель"@ru .
+
+<http://unl.ru/#002a0219dde5e4d2987ec29213812827_lemma>
+    lemon:writtenRep "похититель"@ru ;
+    a lemon:Form ;
+    rdfs:label "похититель"@ru .
+
+<http://unl.ru/#002a0219dde5e4d2987ec29213812827_sense>
+    lemon:definition <http://unl.ru/#concept_8b7b6d7268d7b7c0ec8d99414ec4b41d_gloss> ;
+    lemon:isSenseOf <http://unl.ru/#002a0219dde5e4d2987ec29213812827> ;
+    lemon:reference <http://unl.ru/#concept_8b7b6d7268d7b7c0ec8d99414ec4b41d> ;
+    a lemon:LexicalSense ;
+    rdfs:label "stealer(icl>criminal>thing,equ>thief)" .
+
+<http://unl.ru/#002a976344d612668ac9a22472fa8421>
+    lemon:sense <http://unl.ru/#002a976344d612668ac9a22472fa8421_sense> .
+
+<http://unl.ru/#002a976344d612668ac9a22472fa8421_sense>
+    lemon:definition <http://unl.ru/#concept_d45dc1338a5678110bea44c4caa14c3a_gloss> ;
+    lemon:isSenseOf <http://unl.ru/#002a976344d612668ac9a22472fa8421> ;
+    lemon:reference <http://unl.ru/#concept_d45dc1338a5678110bea44c4caa14c3a> ;
+    a lemon:LexicalSense ;
+    rdfs:label "artillery(icl>persuasion>thing,equ>weapon)" .
+
+<http://unl.ru/#002c1b35b38f435faec6db6ce6a0cbc9>
+    lemon:canonicalForm <http://unl.ru/#002c1b35b38f435faec6db6ce6a0cbc9_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "злотый"@ru .
+
+<http://unl.ru/#002c1b35b38f435faec6db6ce6a0cbc9_lemma>
+    lemon:writtenRep "злотый"@ru ;
+    a lemon:Form ;
+    rdfs:label "злотый"@ru .
+
+<http://unl.ru/#002efc0979767a1c25e742d5896fc452>
+    lemon:canonicalForm <http://unl.ru/#002efc0979767a1c25e742d5896fc452_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:verb ;
+    a lemon:LexicalEntry ;
+    rdfs:label "соглашаться"@ru .
+
+<http://unl.ru/#002efc0979767a1c25e742d5896fc452_lemma>
+    lemon:writtenRep "соглашаться"@ru ;
+    a lemon:Form ;
+    rdfs:label "соглашаться"@ru .
+
+<http://unl.ru/#003069fe59a5d80b39da964102d2f6c1>
+    lemon:canonicalForm <http://unl.ru/#003069fe59a5d80b39da964102d2f6c1_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lemon:sense <http://unl.ru/#003069fe59a5d80b39da964102d2f6c1_sense> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "горшок"@ru, "котелок"@ru .
+
+<http://unl.ru/#003069fe59a5d80b39da964102d2f6c1_lemma>
+    lemon:writtenRep "горшок"@ru, "котелок"@ru ;
+    a lemon:Form ;
+    rdfs:label "горшок"@ru, "котелок"@ru .
+
+<http://unl.ru/#003069fe59a5d80b39da964102d2f6c1_sense>
+    lemon:definition <http://unl.ru/#concept_003069fe59a5d80b39da964102d2f6c1_gloss> ;
+    lemon:isSenseOf <http://unl.ru/#003069fe59a5d80b39da964102d2f6c1> ;
+    lemon:reference <http://unl.ru/#concept_003069fe59a5d80b39da964102d2f6c1> ;
+    a lemon:LexicalSense ;
+    rdfs:label "pot(icl>cooking_utensil>thing)" .
+
+<http://unl.ru/#0032bbc89c9875b738b25da6cfe94448>
+    lemon:canonicalForm <http://unl.ru/#0032bbc89c9875b738b25da6cfe94448_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "ненасытность"@ru .
+
+<http://unl.ru/#0032bbc89c9875b738b25da6cfe94448_lemma>
+    lemon:writtenRep "ненасытность"@ru ;
+    a lemon:Form ;
+    rdfs:label "ненасытность"@ru .
+
+<http://unl.ru/#00339b207c7f1414901717809ce50f36>
+    lemon:canonicalForm <http://unl.ru/#00339b207c7f1414901717809ce50f36_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lemon:sense <http://unl.ru/#00339b207c7f1414901717809ce50f36_sense> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "надрыв"@ru .
+
+<http://unl.ru/#00339b207c7f1414901717809ce50f36_lemma>
+    lemon:writtenRep "надрыв"@ru ;
+    a lemon:Form ;
+    rdfs:label "надрыв"@ru .
+
+<http://unl.ru/#00339b207c7f1414901717809ce50f36_sense>
+    lemon:definition <http://unl.ru/#concept_a57d7032340efe8529f811ee2eaed053_gloss> ;
+    lemon:isSenseOf <http://unl.ru/#00339b207c7f1414901717809ce50f36> ;
+    lemon:reference <http://unl.ru/#concept_a57d7032340efe8529f811ee2eaed053> ;
+    a lemon:LexicalSense ;
+    rdfs:label "rent(icl>opening>thing,equ>rip)" .
+
+<http://unl.ru/#0033bb1d60843916dd86e87822b4e128>
+    lemon:canonicalForm <http://unl.ru/#0033bb1d60843916dd86e87822b4e128_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:adjective ;
+    a lemon:LexicalEntry ;
+    rdfs:label "несогласованный"@ru .
+
+<http://unl.ru/#0033bb1d60843916dd86e87822b4e128_lemma>
+    lemon:writtenRep "несогласованный"@ru ;
+    a lemon:Form ;
+    rdfs:label "несогласованный"@ru .
+
+<http://unl.ru/#0033cc155f92f3958e80b5ab5dc557fc>
+    lemon:canonicalForm <http://unl.ru/#0033cc155f92f3958e80b5ab5dc557fc_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lemon:sense <http://unl.ru/#0033cc155f92f3958e80b5ab5dc557fc_sense> ;
+    lexinfo:partOfSpeech lexinfo:verb ;
+    a lemon:LexicalEntry ;
+    rdfs:label "следить"@ru .
+
+<http://unl.ru/#0033cc155f92f3958e80b5ab5dc557fc_lemma>
+    lemon:writtenRep "следить"@ru ;
+    a lemon:Form ;
+    rdfs:label "следить"@ru .
+
+<http://unl.ru/#0033cc155f92f3958e80b5ab5dc557fc_sense>
+    lemon:definition <http://unl.ru/#concept_042a3622d4cf3cf341bda97acb455246_gloss> ;
+    lemon:isSenseOf <http://unl.ru/#0033cc155f92f3958e80b5ab5dc557fc> ;
+    lemon:reference <http://unl.ru/#concept_042a3622d4cf3cf341bda97acb455246> ;
+    a lemon:LexicalSense ;
+    rdfs:label "survey(icl>do,equ>surveil,agt>thing,obj>thing)" .
+
+<http://unl.ru/#0034caf7c9fab6974f75f86cbe8731e0>
+    lemon:canonicalForm <http://unl.ru/#0034caf7c9fab6974f75f86cbe8731e0_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "Льюис"@ru .
+
+<http://unl.ru/#0034caf7c9fab6974f75f86cbe8731e0_lemma>
+    lemon:writtenRep "Льюис"@ru ;
+    a lemon:Form ;
+    rdfs:label "Льюис"@ru .
+
+<http://unl.ru/#00359e6fe41d6784c153bcb5503a2a7f>
+    lemon:sense <http://unl.ru/#00359e6fe41d6784c153bcb5503a2a7f_sense> .
+
+<http://unl.ru/#00359e6fe41d6784c153bcb5503a2a7f_sense>
+    lemon:definition <http://unl.ru/#concept_8cf64f5cdef1e2505f723804056d5c53_gloss> ;
+    lemon:isSenseOf <http://unl.ru/#00359e6fe41d6784c153bcb5503a2a7f> ;
+    lemon:reference <http://unl.ru/#concept_8cf64f5cdef1e2505f723804056d5c53> ;
+    a lemon:LexicalSense ;
+    rdfs:label "remit(icl>delay>be,equ>postpone,obj>thing,aoj>thing)" .
+
+<http://unl.ru/#003b43bd8a2cdc1d7a1fa9f766ef9b63>
+    lemon:canonicalForm <http://unl.ru/#003b43bd8a2cdc1d7a1fa9f766ef9b63_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lemon:sense <http://unl.ru/#003b43bd8a2cdc1d7a1fa9f766ef9b63_sense> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "туалет"@ru .
+
+<http://unl.ru/#003b43bd8a2cdc1d7a1fa9f766ef9b63_lemma>
+    lemon:writtenRep "туалет"@ru ;
+    a lemon:Form ;
+    rdfs:label "туалет"@ru .
+
+<http://unl.ru/#003b43bd8a2cdc1d7a1fa9f766ef9b63_sense>
+    lemon:definition <http://unl.ru/#concept_c64ebd8f3abfe6d6174cca7aa2585bfe_gloss> ;
+    lemon:isSenseOf <http://unl.ru/#003b43bd8a2cdc1d7a1fa9f766ef9b63> ;
+    lemon:reference <http://unl.ru/#concept_c64ebd8f3abfe6d6174cca7aa2585bfe> ;
+    a lemon:LexicalSense ;
+    rdfs:label "can(icl>room>thing,equ>toilet)" .
+
+<http://unl.ru/#003ea510fc0a97a86de38062c4602ebc>
+    lemon:canonicalForm <http://unl.ru/#003ea510fc0a97a86de38062c4602ebc_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "вельвет"@ru .
+
+<http://unl.ru/#003ea510fc0a97a86de38062c4602ebc_lemma>
+    lemon:writtenRep "вельвет"@ru ;
+    a lemon:Form ;
+    rdfs:label "вельвет"@ru .
+
+<http://unl.ru/#003fe5810204484132358d00206f51ab>
+    lemon:canonicalForm <http://unl.ru/#003fe5810204484132358d00206f51ab_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "спутник"@ru .
+
+<http://unl.ru/#003fe5810204484132358d00206f51ab_lemma>
+    lemon:writtenRep "спутник"@ru ;
+    a lemon:Form ;
+    rdfs:label "спутник"@ru .
+
+<http://unl.ru/#004120b2a2bc45b732cabbd08a6e7d39>
+    lemon:canonicalForm <http://unl.ru/#004120b2a2bc45b732cabbd08a6e7d39_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "реставратор"@ru .
+
+<http://unl.ru/#004120b2a2bc45b732cabbd08a6e7d39_lemma>
+    lemon:writtenRep "реставратор"@ru ;
+    a lemon:Form ;
+    rdfs:label "реставратор"@ru .
+
+<http://unl.ru/#004146cbe3ef0d420dbec578b1158f70>
+    lemon:canonicalForm <http://unl.ru/#004146cbe3ef0d420dbec578b1158f70_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "хлеб"@ru .
+
+<http://unl.ru/#004146cbe3ef0d420dbec578b1158f70_lemma>
+    lemon:writtenRep "хлеб"@ru ;
+    a lemon:Form ;
+    rdfs:label "хлеб"@ru .
+
+<http://unl.ru/#004467fc012848eeae9e45dec619b102>
+    lemon:canonicalForm <http://unl.ru/#004467fc012848eeae9e45dec619b102_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lemon:sense <http://unl.ru/#004467fc012848eeae9e45dec619b102_sense> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "спор"@ru .
+
+<http://unl.ru/#004467fc012848eeae9e45dec619b102_lemma>
+    lemon:writtenRep "спор"@ru ;
+    a lemon:Form ;
+    rdfs:label "спор"@ru .
+
+<http://unl.ru/#004467fc012848eeae9e45dec619b102_sense>
+    lemon:definition <http://unl.ru/#concept_8781f5ef2da18172af1a1654decc610a_gloss> ;
+    lemon:isSenseOf <http://unl.ru/#004467fc012848eeae9e45dec619b102> ;
+    lemon:reference <http://unl.ru/#concept_8781f5ef2da18172af1a1654decc610a> ;
+    a lemon:LexicalSense ;
+    rdfs:label "controversy(icl>dispute>thing)" .
+
+<http://unl.ru/#00447e9b3577af89212aa9e443e1ab46>
+    lemon:canonicalForm <http://unl.ru/#00447e9b3577af89212aa9e443e1ab46_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:adverb ;
+    a lemon:LexicalEntry ;
+    rdfs:label "ежегодно"@ru .
+
+<http://unl.ru/#00447e9b3577af89212aa9e443e1ab46_lemma>
+    lemon:writtenRep "ежегодно"@ru ;
+    a lemon:Form ;
+    rdfs:label "ежегодно"@ru .
+
+<http://unl.ru/#00459b0806387c8c6f673606a6af6490>
+    lemon:canonicalForm <http://unl.ru/#00459b0806387c8c6f673606a6af6490_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lemon:sense <http://unl.ru/#00459b0806387c8c6f673606a6af6490_sense> ;
+    lexinfo:partOfSpeech lexinfo:verb ;
+    a lemon:LexicalEntry ;
+    rdfs:label "сожалеть"@ru .
+
+<http://unl.ru/#00459b0806387c8c6f673606a6af6490_lemma>
+    lemon:writtenRep "сожалеть"@ru ;
+    a lemon:Form ;
+    rdfs:label "сожалеть"@ru .
+
+<http://unl.ru/#00459b0806387c8c6f673606a6af6490_sense>
+    lemon:definition <http://unl.ru/#concept_651c3e60998a86da6ed0eb9967d7f769_gloss> ;
+    lemon:isSenseOf <http://unl.ru/#00459b0806387c8c6f673606a6af6490> ;
+    lemon:reference <http://unl.ru/#concept_651c3e60998a86da6ed0eb9967d7f769> ;
+    a lemon:LexicalSense ;
+    rdfs:label "rue(icl>feel>do,equ>repent,agt>thing,obj>thing)" .
+
+<http://unl.ru/#0045ba7792124b9b032f1c0d7186f7df>
+    lemon:canonicalForm <http://unl.ru/#0045ba7792124b9b032f1c0d7186f7df_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "Найтингейл"@ru .
+
+<http://unl.ru/#0045ba7792124b9b032f1c0d7186f7df_lemma>
+    lemon:writtenRep "Найтингейл"@ru ;
+    a lemon:Form ;
+    rdfs:label "Найтингейл"@ru .
+
+<http://unl.ru/#0046b42b3b4eabee55c24bf2402cbc51>
+    lemon:canonicalForm <http://unl.ru/#0046b42b3b4eabee55c24bf2402cbc51_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:adverb ;
+    a lemon:LexicalEntry ;
+    rdfs:label "более"@ru .
+
+<http://unl.ru/#0046b42b3b4eabee55c24bf2402cbc51_lemma>
+    lemon:writtenRep "более"@ru ;
+    a lemon:Form ;
+    rdfs:label "более"@ru .
+
+<http://unl.ru/#0046f27a7a7668064855c7140a413942>
+    lemon:canonicalForm <http://unl.ru/#0046f27a7a7668064855c7140a413942_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "бунчук"@ru .
+
+<http://unl.ru/#0046f27a7a7668064855c7140a413942_lemma>
+    lemon:writtenRep "бунчук"@ru ;
+    a lemon:Form ;
+    rdfs:label "бунчук"@ru .
+
+<http://unl.ru/#00489ce3ad61918ac95535593b419790>
+    lemon:canonicalForm <http://unl.ru/#00489ce3ad61918ac95535593b419790_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "сейф"@ru .
+
+<http://unl.ru/#00489ce3ad61918ac95535593b419790_lemma>
+    lemon:writtenRep "сейф"@ru ;
+    a lemon:Form ;
+    rdfs:label "сейф"@ru .
+
+<http://unl.ru/#004ab2d39d19aca3edd8b00b06bb7689>
+    lemon:canonicalForm <http://unl.ru/#004ab2d39d19aca3edd8b00b06bb7689_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lemon:sense <http://unl.ru/#004ab2d39d19aca3edd8b00b06bb7689_sense> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "уловка"@ru .
+
+<http://unl.ru/#004ab2d39d19aca3edd8b00b06bb7689_lemma>
+    lemon:writtenRep "уловка"@ru ;
+    a lemon:Form ;
+    rdfs:label "уловка"@ru .
+
+<http://unl.ru/#004ab2d39d19aca3edd8b00b06bb7689_sense>
+    lemon:definition <http://unl.ru/#concept_b50e5b59677176b9a9debadc09ef15be_gloss> ;
+    lemon:isSenseOf <http://unl.ru/#004ab2d39d19aca3edd8b00b06bb7689> ;
+    lemon:reference <http://unl.ru/#concept_b50e5b59677176b9a9debadc09ef15be> ;
+    a lemon:LexicalSense ;
+    rdfs:label "gimmick(icl>maneuver>thing,equ>device)" .
+
+<http://unl.ru/#004ba56eb7e4978f42e99b6b2427ebb0>
+    lemon:canonicalForm <http://unl.ru/#004ba56eb7e4978f42e99b6b2427ebb0_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lemon:sense <http://unl.ru/#004ba56eb7e4978f42e99b6b2427ebb0_sense> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "смущение"@ru .
+
+<http://unl.ru/#004ba56eb7e4978f42e99b6b2427ebb0_lemma>
+    lemon:writtenRep "смущение"@ru ;
+    a lemon:Form ;
+    rdfs:label "смущение"@ru .
+
+<http://unl.ru/#004ba56eb7e4978f42e99b6b2427ebb0_sense>
+    lemon:definition <http://unl.ru/#concept_3422585b6084ad952f6596d6eed54578_gloss> ;
+    lemon:isSenseOf <http://unl.ru/#004ba56eb7e4978f42e99b6b2427ebb0> ;
+    lemon:reference <http://unl.ru/#concept_3422585b6084ad952f6596d6eed54578> ;
+    a lemon:LexicalSense ;
+    rdfs:label "abashment(icl>embarrassment>thing)" .
+
+<http://unl.ru/#004bd1839e9e8782a5d5b243ac2a40c3>
+    lemon:canonicalForm <http://unl.ru/#004bd1839e9e8782a5d5b243ac2a40c3_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lemon:sense <http://unl.ru/#004bd1839e9e8782a5d5b243ac2a40c3_sense> ;
+    lexinfo:partOfSpeech lexinfo:verb ;
+    a lemon:LexicalEntry ;
+    rdfs:label "почитать"@ru .
+
+<http://unl.ru/#004bd1839e9e8782a5d5b243ac2a40c3_lemma>
+    lemon:writtenRep "почитать"@ru ;
+    a lemon:Form ;
+    rdfs:label "почитать"@ru .
+
+<http://unl.ru/#004bd1839e9e8782a5d5b243ac2a40c3_sense>
+    lemon:definition <http://unl.ru/#concept_49865cf7c3cf566c5c15f0bcf8cce86b_gloss> ;
+    lemon:isSenseOf <http://unl.ru/#004bd1839e9e8782a5d5b243ac2a40c3> ;
+    lemon:reference <http://unl.ru/#concept_49865cf7c3cf566c5c15f0bcf8cce86b> ;
+    a lemon:LexicalSense ;
+    rdfs:label "fear(icl>esteem>be,obj>uw,aoj>thing)" .
+
+<http://unl.ru/#004d5cc09894f8366976b47ea9d42973>
+    lemon:canonicalForm <http://unl.ru/#004d5cc09894f8366976b47ea9d42973_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lemon:sense <http://unl.ru/#004d5cc09894f8366976b47ea9d42973_sense> ;
+    lexinfo:partOfSpeech lexinfo:verb ;
+    a lemon:LexicalEntry ;
+    rdfs:label "предотвращать"@ru .
+
+<http://unl.ru/#004d5cc09894f8366976b47ea9d42973_lemma>
+    lemon:writtenRep "предотвращать"@ru ;
+    a lemon:Form ;
+    rdfs:label "предотвращать"@ru .
+
+<http://unl.ru/#004d5cc09894f8366976b47ea9d42973_sense>
+    lemon:definition <http://unl.ru/#concept_3b71f9be25280d745a1ea6507911bc3b_gloss> ;
+    lemon:isSenseOf <http://unl.ru/#004d5cc09894f8366976b47ea9d42973> ;
+    lemon:reference <http://unl.ru/#concept_3b71f9be25280d745a1ea6507911bc3b> ;
+    a lemon:LexicalSense ;
+    rdfs:label "prevent(icl>forestall>do,agt>thing,obj>thing)" .
+
+<http://unl.ru/#004effc6726ef912ab18aaf99cc7ea22>
+    lemon:canonicalForm <http://unl.ru/#004effc6726ef912ab18aaf99cc7ea22_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lemon:sense <http://unl.ru/#004effc6726ef912ab18aaf99cc7ea22_sense> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "дубинка"@ru .
+
+<http://unl.ru/#004effc6726ef912ab18aaf99cc7ea22_lemma>
+    lemon:writtenRep "дубинка"@ru ;
+    a lemon:Form ;
+    rdfs:label "дубинка"@ru .
+
+<http://unl.ru/#004effc6726ef912ab18aaf99cc7ea22_sense>
+    lemon:definition <http://unl.ru/#concept_8cee3126f7e4c93c08b166e2b74633fa_gloss> ;
+    lemon:isSenseOf <http://unl.ru/#004effc6726ef912ab18aaf99cc7ea22> ;
+    lemon:reference <http://unl.ru/#concept_8cee3126f7e4c93c08b166e2b74633fa> ;
+    a lemon:LexicalSense ;
+    rdfs:label "truncheon(icl>club>thing)" .
+
+<http://unl.ru/#004fa0ff3c638493db8e8abf857ec0b6>
+    lemon:canonicalForm <http://unl.ru/#004fa0ff3c638493db8e8abf857ec0b6_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:adjective ;
+    a lemon:LexicalEntry ;
+    rdfs:label "англиканский"@ru .
+
+<http://unl.ru/#004fa0ff3c638493db8e8abf857ec0b6_lemma>
+    lemon:writtenRep "англиканский"@ru ;
+    a lemon:Form ;
+    rdfs:label "англиканский"@ru .
+
+<http://unl.ru/#00530beca026105acf5042a5efd3c011>
+    lemon:canonicalForm <http://unl.ru/#00530beca026105acf5042a5efd3c011_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lemon:sense <http://unl.ru/#00530beca026105acf5042a5efd3c011_sense> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "имитатор"@ru .
+
+<http://unl.ru/#00530beca026105acf5042a5efd3c011_lemma>
+    lemon:writtenRep "имитатор"@ru ;
+    a lemon:Form ;
+    rdfs:label "имитатор"@ru .
+
+<http://unl.ru/#00530beca026105acf5042a5efd3c011_sense>
+    lemon:definition <http://unl.ru/#concept_569d93dd58fc447c52b1d79e635c0c35_gloss> ;
+    lemon:isSenseOf <http://unl.ru/#00530beca026105acf5042a5efd3c011> ;
+    lemon:reference <http://unl.ru/#concept_569d93dd58fc447c52b1d79e635c0c35> ;
+    a lemon:LexicalSense ;
+    rdfs:label "emulator(icl>person>thing,equ>copycat,mod>male)" .
+
+<http://unl.ru/#00535adfaac2ccca393856265d810cbc>
+    lemon:sense <http://unl.ru/#00535adfaac2ccca393856265d810cbc_sense> .
+
+<http://unl.ru/#00535adfaac2ccca393856265d810cbc_sense>
+    lemon:definition <http://unl.ru/#concept_584deb044d6398d0bd6b77821487af91_gloss> ;
+    lemon:isSenseOf <http://unl.ru/#00535adfaac2ccca393856265d810cbc> ;
+    lemon:reference <http://unl.ru/#concept_584deb044d6398d0bd6b77821487af91> ;
+    a lemon:LexicalSense ;
+    rdfs:label "adhere(icl>attach>occur,obj>thing)" .
+
+<http://unl.ru/#0054ed2d1fedf688a01592cf6db2dc2c>
+    lemon:canonicalForm <http://unl.ru/#0054ed2d1fedf688a01592cf6db2dc2c_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "идиллия"@ru .
+
+<http://unl.ru/#0054ed2d1fedf688a01592cf6db2dc2c_lemma>
+    lemon:writtenRep "идиллия"@ru ;
+    a lemon:Form ;
+    rdfs:label "идиллия"@ru .
+
+<http://unl.ru/#0056edba1826bb34c23a783fff2ab231>
+    lemon:canonicalForm <http://unl.ru/#0056edba1826bb34c23a783fff2ab231_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lemon:sense <http://unl.ru/#0056edba1826bb34c23a783fff2ab231_sense> ;
+    lexinfo:partOfSpeech lexinfo:adjective ;
+    a lemon:LexicalEntry ;
+    rdfs:label "наивысший"@ru .
+
+<http://unl.ru/#0056edba1826bb34c23a783fff2ab231_lemma>
+    lemon:writtenRep "наивысший"@ru ;
+    a lemon:Form ;
+    rdfs:label "наивысший"@ru .
+
+<http://unl.ru/#0056edba1826bb34c23a783fff2ab231_sense>
+    lemon:definition <http://unl.ru/#concept_da3b34ade586fc3b04d7fd057487e969_gloss> ;
+    lemon:isSenseOf <http://unl.ru/#0056edba1826bb34c23a783fff2ab231> ;
+    lemon:reference <http://unl.ru/#concept_da3b34ade586fc3b04d7fd057487e969> ;
+    a lemon:LexicalSense ;
+    rdfs:label "sovereign(icl>adj)" .
+
+<http://unl.ru/#005722f129fd3d433b62e3608dd972c2>
+    lemon:canonicalForm <http://unl.ru/#005722f129fd3d433b62e3608dd972c2_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lemon:sense <http://unl.ru/#005722f129fd3d433b62e3608dd972c2_sense> ;
+    lexinfo:partOfSpeech lexinfo:verb ;
+    a lemon:LexicalEntry ;
+    rdfs:label "рассматривать"@ru .
+
+<http://unl.ru/#005722f129fd3d433b62e3608dd972c2_lemma>
+    lemon:writtenRep "рассматривать"@ru ;
+    a lemon:Form ;
+    rdfs:label "рассматривать"@ru .
+
+<http://unl.ru/#005722f129fd3d433b62e3608dd972c2_sense>
+    lemon:definition <http://unl.ru/#concept_5f8610977f27dcf6a4f61481713f9dbe_gloss> ;
+    lemon:isSenseOf <http://unl.ru/#005722f129fd3d433b62e3608dd972c2> ;
+    lemon:reference <http://unl.ru/#concept_5f8610977f27dcf6a4f61481713f9dbe> ;
+    a lemon:LexicalSense ;
+    rdfs:label "view(icl>consider>do,agt>person,obj>thing,gol>thing)" .
+
+<http://unl.ru/#005877a6362aba34a3f6fa5c861a3b14>
+    lemon:canonicalForm <http://unl.ru/#005877a6362aba34a3f6fa5c861a3b14_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "пирофосфат"@ru .
+
+<http://unl.ru/#005877a6362aba34a3f6fa5c861a3b14_lemma>
+    lemon:writtenRep "пирофосфат"@ru ;
+    a lemon:Form ;
+    rdfs:label "пирофосфат"@ru .
+
+<http://unl.ru/#005912b764820477f8047a989fd181fb>
+    lemon:canonicalForm <http://unl.ru/#005912b764820477f8047a989fd181fb_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:verb ;
+    a lemon:LexicalEntry ;
+    rdfs:label "скользить"@ru .
+
+<http://unl.ru/#005912b764820477f8047a989fd181fb_lemma>
+    lemon:writtenRep "скользить"@ru ;
+    a lemon:Form ;
+    rdfs:label "скользить"@ru .
+
+<http://unl.ru/#005afbbabcc52d1868f70fce6aa085a7>
+    lemon:canonicalForm <http://unl.ru/#005afbbabcc52d1868f70fce6aa085a7_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "Ламберт"@ru .
+
+<http://unl.ru/#005afbbabcc52d1868f70fce6aa085a7_lemma>
+    lemon:writtenRep "Ламберт"@ru ;
+    a lemon:Form ;
+    rdfs:label "Ламберт"@ru .
+
+<http://unl.ru/#005b7d0bb1c57fbe42704b3ec410c9c7>
+    lemon:canonicalForm <http://unl.ru/#005b7d0bb1c57fbe42704b3ec410c9c7_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lemon:sense <http://unl.ru/#005b7d0bb1c57fbe42704b3ec410c9c7_sense> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "архетип"@ru .
+
+<http://unl.ru/#005b7d0bb1c57fbe42704b3ec410c9c7_lemma>
+    lemon:writtenRep "архетип"@ru ;
+    a lemon:Form ;
+    rdfs:label "архетип"@ru .
+
+<http://unl.ru/#005b7d0bb1c57fbe42704b3ec410c9c7_sense>
+    lemon:definition <http://unl.ru/#concept_338d036d25e91d013468a3a62272774f_gloss> ;
+    lemon:isSenseOf <http://unl.ru/#005b7d0bb1c57fbe42704b3ec410c9c7> ;
+    lemon:reference <http://unl.ru/#concept_338d036d25e91d013468a3a62272774f> ;
+    a lemon:LexicalSense ;
+    rdfs:label "archetype(icl>model>thing,equ>original)" .
+
+<http://unl.ru/#005b8a54fb9157b1281ba82ac3d00cd4>
+    lemon:canonicalForm <http://unl.ru/#005b8a54fb9157b1281ba82ac3d00cd4_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:verb ;
+    a lemon:LexicalEntry ;
+    rdfs:label "применяться"@ru .
+
+<http://unl.ru/#005b8a54fb9157b1281ba82ac3d00cd4_lemma>
+    lemon:writtenRep "применяться"@ru ;
+    a lemon:Form ;
+    rdfs:label "применяться"@ru .
+
+<http://unl.ru/#005be22e90b28b7e647a3975ed230eba>
+    lemon:canonicalForm <http://unl.ru/#005be22e90b28b7e647a3975ed230eba_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lemon:sense <http://unl.ru/#005be22e90b28b7e647a3975ed230eba_sense> ;
+    lexinfo:partOfSpeech lexinfo:adjective ;
+    a lemon:LexicalEntry ;
+    rdfs:label "невинный"@ru .
+
+<http://unl.ru/#005be22e90b28b7e647a3975ed230eba_lemma>
+    lemon:writtenRep "невинный"@ru ;
+    a lemon:Form ;
+    rdfs:label "невинный"@ru .
+
+<http://unl.ru/#005be22e90b28b7e647a3975ed230eba_sense>
+    lemon:definition <http://unl.ru/#concept_f9249dc16c988e6320584a19dd71e8e0_gloss> ;
+    lemon:isSenseOf <http://unl.ru/#005be22e90b28b7e647a3975ed230eba> ;
+    lemon:reference <http://unl.ru/#concept_f9249dc16c988e6320584a19dd71e8e0> ;
+    a lemon:LexicalSense ;
+    rdfs:label "guiltless(icl>adj,equ>innocent,ant>guilty)" .
+
+<http://unl.ru/#005d222c6e6a5dacf251ff4317233036>
+    lemon:canonicalForm <http://unl.ru/#005d222c6e6a5dacf251ff4317233036_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lemon:sense <http://unl.ru/#005d222c6e6a5dacf251ff4317233036_sense> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "параллель"@ru .
+
+<http://unl.ru/#005d222c6e6a5dacf251ff4317233036_lemma>
+    lemon:writtenRep "параллель"@ru ;
+    a lemon:Form ;
+    rdfs:label "параллель"@ru .
+
+<http://unl.ru/#005d222c6e6a5dacf251ff4317233036_sense>
+    lemon:definition <http://unl.ru/#concept_72aea1dda73e18c7dd4913450ad371ff_gloss> ;
+    lemon:isSenseOf <http://unl.ru/#005d222c6e6a5dacf251ff4317233036> ;
+    lemon:reference <http://unl.ru/#concept_72aea1dda73e18c7dd4913450ad371ff> ;
+    a lemon:LexicalSense ;
+    rdfs:label "parallel(icl>similarity>thing,equ>analogue)" .
+
+<http://unl.ru/#005da462e486fc8fcc5c7e1cc893fd59>
+    lemon:canonicalForm <http://unl.ru/#005da462e486fc8fcc5c7e1cc893fd59_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lemon:sense <http://unl.ru/#005da462e486fc8fcc5c7e1cc893fd59_sense> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "обширность"@ru .
+
+<http://unl.ru/#005da462e486fc8fcc5c7e1cc893fd59_lemma>
+    lemon:writtenRep "обширность"@ru ;
+    a lemon:Form ;
+    rdfs:label "обширность"@ru .
+
+<http://unl.ru/#005da462e486fc8fcc5c7e1cc893fd59_sense>
+    lemon:definition <http://unl.ru/#concept_19cb0cd9419e7aabf071efdbf7001850_gloss> ;
+    lemon:isSenseOf <http://unl.ru/#005da462e486fc8fcc5c7e1cc893fd59> ;
+    lemon:reference <http://unl.ru/#concept_19cb0cd9419e7aabf071efdbf7001850> ;
+    a lemon:LexicalSense ;
+    rdfs:label "vastness(icl>largeness>thing,equ>enormousness)" .
+
+<http://unl.ru/#005da9bf8890bc4a3abd129f17354ff0>
+    lemon:canonicalForm <http://unl.ru/#005da9bf8890bc4a3abd129f17354ff0_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "исламизм"@ru .
+
+<http://unl.ru/#005da9bf8890bc4a3abd129f17354ff0_lemma>
+    lemon:writtenRep "исламизм"@ru ;
+    a lemon:Form ;
+    rdfs:label "исламизм"@ru .
+
+<http://unl.ru/#005e4ed5dd4bb7d6a1f1c6adb56b977d>
+    lemon:canonicalForm <http://unl.ru/#005e4ed5dd4bb7d6a1f1c6adb56b977d_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "ямаец"@ru .
+
+<http://unl.ru/#005e4ed5dd4bb7d6a1f1c6adb56b977d_lemma>
+    lemon:writtenRep "ямаец"@ru ;
+    a lemon:Form ;
+    rdfs:label "ямаец"@ru .
+
+<http://unl.ru/#005f97e8249e0e194e1eef804ec68229>
+    lemon:canonicalForm <http://unl.ru/#005f97e8249e0e194e1eef804ec68229_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "переиздание"@ru .
+
+<http://unl.ru/#005f97e8249e0e194e1eef804ec68229_lemma>
+    lemon:writtenRep "переиздание"@ru ;
+    a lemon:Form ;
+    rdfs:label "переиздание"@ru .
+
+<http://unl.ru/#005fce908675b9d88d5501a357d2961d>
+    lemon:canonicalForm <http://unl.ru/#005fce908675b9d88d5501a357d2961d_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lemon:sense <http://unl.ru/#005fce908675b9d88d5501a357d2961d_sense> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "Золотая Рыба"@ru, "Золотая рыба"@ru, "Корифена"@ru .
+
+<http://unl.ru/#005fce908675b9d88d5501a357d2961d_lemma>
+    lemon:writtenRep "Золотая Рыба"@ru, "Золотая рыба"@ru, "Корифена"@ru ;
+    a lemon:Form ;
+    rdfs:label "Золотая Рыба"@ru, "Золотая рыба"@ru, "Корифена"@ru .
+
+<http://unl.ru/#005fce908675b9d88d5501a357d2961d_sense>
+    lemon:definition <http://unl.ru/#concept_005fce908675b9d88d5501a357d2961d_gloss> ;
+    lemon:isSenseOf <http://unl.ru/#005fce908675b9d88d5501a357d2961d> ;
+    lemon:reference <http://unl.ru/#concept_005fce908675b9d88d5501a357d2961d> ;
+    a lemon:LexicalSense ;
+    rdfs:label "dorado(iof>constellation>thing)" .
+
+<http://unl.ru/#00642267dbc2fdb3c7f3871263e442a6>
+    lemon:sense <http://unl.ru/#00642267dbc2fdb3c7f3871263e442a6_sense> .
+
+<http://unl.ru/#00642267dbc2fdb3c7f3871263e442a6_sense>
+    lemon:definition <http://unl.ru/#concept_81ecb221445edc65792dd3529c3d31d7_gloss> ;
+    lemon:isSenseOf <http://unl.ru/#00642267dbc2fdb3c7f3871263e442a6> ;
+    lemon:reference <http://unl.ru/#concept_81ecb221445edc65792dd3529c3d31d7> ;
+    a lemon:LexicalSense ;
+    rdfs:label "aggravation(icl>aggression>thing)" .
+
+<http://unl.ru/#006459b48074553629e8139dadfa1929>
+    lemon:canonicalForm <http://unl.ru/#006459b48074553629e8139dadfa1929_lemma> ;
+    lemon:entry <http://unl.ru/> ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    a lemon:LexicalEntry ;
+    rdfs:label "скрип"@ru .
+
+<http://unl.ru/#006459b48074553629e8139dadfa1929_lemma>
+    lemon:writtenRep "скрип"@ru ;
+    a lemon:Form ;
+    rdfs:label "скрип"@ru .

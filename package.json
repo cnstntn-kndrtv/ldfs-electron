@@ -1,0 +1,36 @@
+{
+  "name": "ldfs-electron",
+  "version": "1.0.0",
+  "description": "linked data fragment server in Eletron wrapper",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cnstntn-kndrtv/ldfs-electron.git"
+  },
+  "author": "Constantin Kondratyev",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/cnstntn-kndrtv/ldfs-electron/issues"
+  },
+  "homepage": "https://github.com/cnstntn-kndrtv/ldfs-electron#readme",
+  "dependencies": {
+    "debug": "latest",
+    "ldf-server": "^2.2.1"
+  },
+  "devDependencies": {
+    "devtron": "^1.4.0",
+    "electron-builder": "",
+    "electron-debug": "^1.1.0",
+    "electron-packager": "",
+    "electron-prebuilt": ""
+  },
+  "build": {
+    "appId": "myid",
+    "mac": {
+      "target": "default"
+    }
+  }
+}
