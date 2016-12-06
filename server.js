@@ -1,10 +1,10 @@
-let _ = require('lodash'),
-  fs = require('fs'),
-  path = require('path'),
-  ldfs = require('ldf-server'),
-  LinkedDataFragmentsServer = ldfs.LinkedDataFragmentsServer,
-  IndexDatasource = ldfs.datasources.IndexDatasource,
-  ViewCollection = ldfs.views.ViewCollection;
+let _ = require('lodash')
+  , fs = require('fs')
+  , path = require('path')
+  , ldfs = require('ldf-server')
+  , LinkedDataFragmentsServer = ldfs.LinkedDataFragmentsServer
+  , IndexDatasource = ldfs.datasources.IndexDatasource
+  , ViewCollection = ldfs.views.ViewCollection;
 
 let config = JSON.parse(fs.readFileSync(__dirname + '/config.json')),
   workers = config.workers || 1,
