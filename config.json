@@ -6,23 +6,11 @@
   "workers": 1,
 
   "datasources": {
-    "un-1": {
-      "title": "unldc-1",
+    "unldc": {
+      "title": "unldc",
       "type": "TurtleDatasource",
       "description": "description description",
-      "settings": { "url": "/Users/constantin/Desktop/data/unldc-1.ttl" }
-    },
-    "un-2": {
-      "title": "unldc-2",
-      "type": "TurtleDatasource",
-      "description": "description description",
-      "settings": { "url": "/Users/constantin/Desktop/data/unldc-1.ttl" }
-    },
-    "un-3": {
-      "title": "unldc-3",
-      "type": "TurtleDatasource",
-      "description": "description description",
-      "settings": { "url": "/Users/constantin/Desktop/data/unldc-3.ttl" }
+      "settings": { "url": "/Users/constantin/Downloads/dicts/rundl/unldc.ttl" }
     }
   },
 
